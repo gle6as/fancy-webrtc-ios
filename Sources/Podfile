@@ -1,7 +1,9 @@
 target 'FancyWebRTC' do
-   pod 'GoogleWebRTC', '~> 1.1.29400'
+  # pod 'GoogleWebRTC', '~> 1.1.29400'
+  pod 'GoogleWebRTC'
 end
 
 target 'FancyWebRTCTests' do
-    pod 'GoogleWebRTC', '~> 1.1.29400'
+  #  pod 'GoogleWebRTC', '~> 1.1.29400'
+  pod 'GoogleWebRTC'
 end
